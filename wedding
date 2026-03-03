@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>저희 결혼합니다</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400&family=Gowun+Batang&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Gowun Batang', serif; background-color: #fcfaf7; color: #4a4a4a; }
+        .fade-in { opacity: 0; transform: translateY(20px); transition: all 1s ease-out; }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+        .bg-main { background: url('https://postfiles.pstatic.net/MjAyNjAzMDNfMTYy/MDAxNzcyNTIyOTI0Mzcy.JJaHYtzMDMrV2sjR8_Hkk-IYjnWYnV_vMuuwJlDC7bwg.w59AS5v2z6-O67JP6V4cGLuPcxXn3s_zIntkIiE_z2Ag.JPEG/KakaoTalk_20260303_160452905.jpg?type=w966') center/cover; height: 80vh; }
+    </style>
+</head>
+<body>
+
+    <section class="relative flex flex-col items-center justify-end pb-20 bg-main text-white text-center">
+        <div class="absolute inset-0 bg-black/20"></div>
+        <div class="relative z-10">
+            <p class="text-lg tracking-widest mb-2">MARRY ME</p>
+            <h1 class="text-4xl mb-4 font-light">김욱 & 김민지</h1>
+            <p class="text-sm">2026. 05. 23. SAT PM 12:30</p>
+        </div>
+    </section>
+
+    <section class="py-20 px-8 text-center fade-in">
+        <h2 class="text-xl mb-10 text-stone-500 tracking-widest uppercase">Invitation</h2>
+        <p class="leading-loose text-stone-600">
+            8년의 시간을 함께하며<br>
+            서로가 가장 편안한 사람임을 알게 되었습니다.<br>
+            그 믿음으로<br><br>
+            이제 부부로서 새로운 시작을 맞이합니다.<br>
+            따뜻한 축복으로 함께해주시면 감사하겠습니다.
+        </p>
+        <div class="mt-12 border-t border-stone-200 pt-8">
+            <p class="text-lg">김완현 · 이정남 <span class="text-xs text-stone-400 mx-2">의 아들</span> <b>욱</b></p>
+            <p class="text-lg mt-2">김성학 · 추수현 <span class="text-xs text-stone-400 mx-2">의 딸</span> <b>민지</b></p>
+        </div>
+    </section>
+    <section class="bg-stone-100 py-16 px-4 fade-in">
+        <h2 class="text-center text-xl mb-8 text-stone-500 tracking-widest">GALLERY</h2>
+        <div class="grid grid-cols-2 gap-2">
+            <section class="py-10 px-2 fade-in">
+    <div class="bg-white overflow-hidden rounded-lg">
+        <img src="https://postfiles.pstatic.net/MjAyNjAzMDNfNDcg/MDAxNzcyNTIyOTI3NTA2.-Yka05qfAW4B0RZLNwVBt-4Hx98hn1KPGL6oZFVZ5Pog.Cwa6ioOTeMbti28cI2GiyLhw7oYqhn-JbHA5wq9Z9q4g.JPEG/KakaoTalk_20260303_160446276.jpg?type=w966" class="w-full h-auto"> </div>
+</section><section class="py-10 px-2 fade-in">
+    <div class="bg-white overflow-hidden rounded-lg">
+        <img src="https://postfiles.pstatic.net/MjAyNjAzMDNfMjcy/MDAxNzcyNTIzNDAxMTIx.WSG2nftaBuGhHARmwpyIh80NTv7KRhQ3PG9tIpNuSF8g.Xgk040ruf--Rm2MWcJdbL0Q0eLjUPAfJlNMvp2yNFsEg.JPEG/KakaoTalk_20260303_160911197.jpg?type=w966" class="w-full h-auto"> </div>
+</section></div>
+        </div>
+    </section>
+
+    <section class="py-20 px-8 text-center fade-in">
+        <h2 class="text-xl mb-6 text-stone-500 tracking-widest">LOCATION</h2>
+        <p class="text-lg font-bold">W웨딩 팔레드시즈웨딩홀</p>
+        <p class="text-sm text-stone-500 mt-2">부산 해운대구 해운대해변로298번길 24 지하 1층</p>
+        <div class="mt-8 flex justify-center gap-4">
+           <div class="mt-8 flex flex-col gap-3 items-center">
+    <a href="https://map.naver.com/v5/search/W웨딩 팔레드시즈웨딩홀" 
+       target="_blank" 
+       class="w-64 py-3 bg-[#03C75A] text-white text-sm rounded-lg font-bold shadow-sm">
+       네이버 지도에서 보기
+    </a>
+    
+    <a href="https://map.kakao.com/link/search/팔레드시즈 웨딩" 
+       target="_blank" 
+       class="w-64 py-3 bg-[#FEE500] text-[#3C1E1E] text-sm rounded-lg font-bold shadow-sm">
+       카카오맵에서 보기
+    </a>
+</div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-stone-50 px-8 fade-in">
+        <h2 class="text-center text-lg mb-8 text-stone-500">마음 전하실 곳</h2>
+        <div class="space-y-4">
+            <div class="bg-white p-5 rounded-lg shadow-sm flex justify-between items-center">
+                <div>
+                    <p class="text-xs text-stone-400">신랑측 계좌</p>
+                    <p class="text-sm">신한은행 110274088448</p>
+                </div>
+                <button onclick="copyToClipboard('123-4567-890')" class="text-xs bg-stone-200 px-3 py-1 rounded">복사</button>
+            </div>
+            <div class="bg-white p-5 rounded-lg shadow-sm flex justify-between items-center">
+                <div>
+                    <p class="text-xs text-stone-400">신부측 계좌</p>
+                    <p class="text-sm">@taiwanlixiu한테 보내주면 전달드림</p>
+                </div>
+                <button onclick="copyToClipboard('098-765-4321')" class="text-xs bg-stone-200 px-3 py-1 rounded">복사</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-xs text-stone-400">
+        Copyright © 2026. 김욱 & 김민지 All rights reserved.
+    </footer>
+
+    <script>
+        // 스크롤 애니메이션
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+        // 복사 기능
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert('계좌번호가 복사되었습니다.');
+            });
+        }
+    </script>
+</body>
+</html>
